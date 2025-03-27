@@ -19,14 +19,13 @@ exercises: 5
 
 ## Verifying Code Style Using Linters
 
-We have seen how we can use PyCharm to help us format our Python code in a consistent style.
-This aids reusability,
-since consistent-looking code is easier to modify
-since it is easier to read and understand.
-We can also use tools,
+We can use tools,
 called [**code linters**](https://en.wikipedia.org/wiki/Lint_%28software%29),
 to identify consistency issues in a report-style.
 Linters analyse source code to identify and report on stylistic and even programming errors.
+This aids reusability,
+since consistent-looking code is easier to modify
+since it is easier to read and understand.
 Let us look at a very well used one of these called `pylint`.
 
 First, let us ensure we are on the `style-fixes` branch once again.
