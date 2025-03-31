@@ -10,7 +10,6 @@ You will need the following software and accounts setup to be able to follow the
 - Git version control program
 - GitHub account
 - Python 3 distribution
-- PyCharm integrated development environment (IDE)
 
 Please follow the [installation instructions](installation-instructions.md) to install the above tools and
 set up for the course.

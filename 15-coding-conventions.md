@@ -74,13 +74,6 @@ Look at other examples and decide what looks best. And do not hesitate to ask!
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-As we have already covered in the
-[episode on PyCharm IDE](13-ides.md),
-PyCharm highlights the language constructs (reserved words)
-and syntax errors to help us with coding.
-PyCharm also gives us recommendations for formatting the code -
-these recommendations are mostly taken from the PEP 8 style guide.
-
 A full list of style guidelines for this style is available from the
 [PEP 8 website](https://www.python.org/dev/peps/pep-0008/);
 here we highlight a few.
@@ -110,21 +103,6 @@ Whichever you choose, be consistent throughout the project.
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
-
-PyCharm has built-in support for converting tab indentation to spaces
-"under the hood" for Python code in order to conform to PEP 8.
-So, you can type a tab character and PyCharm will automatically convert it to 4 spaces.
-You can control the amount of spaces that PyCharm uses to replace one tab character
-or you can decide to keep the tab character altogether and prevent automatic conversion.
-You can modify these settings in PyCharm's `Settings`\>`Editor`\>`Code Style`\>`Python`.
-
-![](fig/pycharm-indentation.png){alt='Python code indentation settings in PyCharm' .image-with-shadow width="800px"}
-
-You can also tell the editor to show non-printable characters
-if you are ever unsure what character exactly is being used
-by selecting `Settings` > `Editor` > `General` > `Appearance` then checking "Show whitespaces" option.
-
-![](fig/pycharm-whitespace.png){alt='Python code whitespace settings in PyCharm' .image-with-shadow width="800px"}
 
 There are more complex rules on indenting single units of code that continue over several lines,
 e.g. function, list or dictionary definitions can all take more than one line.
@@ -454,7 +432,7 @@ $ git switch develop
 $ git switch -c style-fixes
 ```
 
-Next look at the `inflammation-analysis.py` file in PyCharm
+Next look at the `inflammation-analysis.py` file
 and identify where the above guidelines have not been followed.
 Fix the discovered inconsistencies and commit them to the feature branch.
 
@@ -462,8 +440,7 @@ Fix the discovered inconsistencies and commit them to the feature branch.
 
 ## Solution
 
-Modify `inflammation-analysis.py` from PyCharm,
-which is helpfully marking inconsistencies with coding guidelines by underlying them.
+Modify `inflammation-analysis.py`.
 There are a few things to fix in `inflammation-analysis.py`, for example:
 
 1. Line 30 in `inflammation-analysis.py` is too long and not very readable.
@@ -509,13 +486,11 @@ There are a few things to fix in `inflammation-analysis.py`, for example:
   Normally, you should not use blank lines in the middle of the code
   unless you want to separate logical units -
   in which case only one blank line is used.
-  Note how PyCharm is warning us by underlining the whole line below.
 
 4. Only one blank line after the end of definition of function `main`
   and the rest of the code below line 27 in `inflammation-analysis.py` -
   should be two blank lines (PEP 8 recommends surrounding top-level function
   (and class) definitions with two blank lines).
-  Note how PyCharm is warning us by underlining the whole line below.
 
 Finally, let us add and commit our changes to the feature branch.
 We will check the status of our working directory first.
@@ -662,8 +637,6 @@ is returned when calling the `help` function and passing its name -
 for example from the interactive Python console/terminal available from the command line
 or when rendering code documentation online
 (e.g. see [Python documentation](https://docs.python.org/3.11/library/index.html)).
-PyCharm also displays the docstring for a function/module
-in a little help popup window when using tab-completion.
 
 ```python
 help(fibonacci)
@@ -673,7 +646,7 @@ help(fibonacci)
 
 ## Exercise: Fix the Docstrings
 
-Look into `models.py` in PyCharm and improve docstrings for functions
+Look into `models.py` and improve docstrings for functions
 `daily_mean` ,
 `daily_min`,
 `daily_max`.
@@ -800,7 +773,7 @@ where new features finally resurface to end-users in bigger "software release" c
 - Always assume that someone else will read your code at a later date, including yourself.
 - Community coding conventions help you create more readable software projects that are easier to contribute to.
 - Python Enhancement Proposals (or PEPs) describe a recommended convention or specification for how to do something in Python.
-- Style checking to ensure code conforms to coding conventions is often part of IDEs.
+- Style checking to ensure code conforms to coding conventions.
 - Consistency with the style guide is important - whichever style you choose.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
