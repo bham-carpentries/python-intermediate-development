@@ -8,7 +8,6 @@ You will need the following software and accounts setup to be able to follow the
 - [Git version control program](#git-version-control-tool)
 - [GitHub account](#github-account)
 - [Python 3 distribution](#python-3-distribution)
-- [PyCharm](#pycharm-ide) integrated development environment (IDE)
 
 :::::::::::::::::::::::::::::::::::::::::  callout
 
@@ -305,13 +304,3 @@ Press `CONTROL-D` or type `exit()` to exit the Python console.
 If you are using a Python 3 distribution from [Python.org](https://www.python.org/),
 `venv` and `pip` will be automatically installed for you. If not, please make sure you have these
 two tools (that correspond to your Python distribution) installed on your machine.
-
-## PyCharm IDE
-
-We use JetBrains's [PyCharm Python Integrated Development Environment](https://www.jetbrains.com/pycharm) for the course.
-PyCharm can be downloaded from [the JetBrains website](https://www.jetbrains.com/pycharm/download).
-The Community edition is fine, though if you are developing software for the purpose of academic research you may be eligible for a free license for the Professional edition which contains extra features.
-
-
-
-

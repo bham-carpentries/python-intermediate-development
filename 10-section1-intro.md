@@ -43,7 +43,7 @@ flowchart LR
   A(1. Setting up
   software environment
 
-  - Isolate and run code: command line, virtual environment & IDE
+  - Isolate and run code: command line & virtual environments
   - Version control and share code: Git & GitHub
   - Write well-written code: PEP8)
 
@@ -83,23 +83,6 @@ and isolate our software project from other Python projects we may work on.
 (i.e. typing `python` causes it to just hang with no error message or output) -
 [see the solution to this issue](../learners/common-issues.md#python-hangs-in-git-bash).*
 
-### Integrated Development Environment (IDE)
-
-An IDE integrates a number of tools that we need
-to develop a software project that goes beyond a single script -
-including a smart code editor, a code compiler/interpreter, a debugger, etc.
-It will help you write well-formatted and readable code that conforms to code style guides
-(such as [PEP8](https://www.python.org/dev/peps/pep-0008/) for Python)
-more efficiently by giving relevant and intelligent suggestions
-for code completion and refactoring.
-IDEs often integrate command line console and version control tools -
-we teach them separately in this course
-as this knowledge can be ported to other programming languages
-and command line tools you may use in the future
-(but is applicable to the integrated versions too).
-
-We will use [PyCharm](https://www.jetbrains.com/pycharm/) in this course -
-a free, open source IDE.
 
 ### Git \& GitHub
 
