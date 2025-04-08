@@ -368,8 +368,10 @@ offers a good explanation on how axes work when applying NumPy functions to arra
 
 :::::::::::::::::::::::::::::::::::::::::  callout
 
-## Debugging
+## Debugging Outside of an IDE
 
+It is worth being aware of the fact that you do not need to use an IDE to debug code,
+although it does certainly make it easier!
 The Python standard library comes with a command-line capable debugger built in, called [pdb](https://docs.python.org/3/library/pdb.html).
 The easiest way to use it is to put one of these lines
 anywhere in your code you would like the debugger to stop:

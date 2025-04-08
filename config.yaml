@@ -72,7 +72,7 @@ episodes:
 - 10-section1-intro.md
 - 11-software-project.md
 - 12-virtual-environments.md
-# - 13-ides.md
+- 13-ides.md
 - 14-collaboration-using-git.md
 - 15-coding-conventions.md
 - 16-verifying-code-style-linters.md
